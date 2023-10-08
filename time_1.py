@@ -1,7 +1,6 @@
 hour = int(input("Starting time (hours): "))
 mins = int(input("Starting time (minutes): "))
 dura = int(input("Event duration (minutes): "))
-zero = "0"
 
 rem=((mins+dura)%60)
 hoursleft=(int(round((mins+dura)/60,0)))
